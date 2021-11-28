@@ -1,6 +1,6 @@
-vocale='aseytujyrdfkyluoikjumynhbtrdb'
+vocale='aieouAIEUO'
 x=0
-with open ('c:/User/user/Desktop/python.txt', 'r' ) as f:
+with open ('C:\Users\Admin\Desktop\python.txt', 'r' ) as f:
     b=f.read()
 
 with open('python.txt', 'w') as f:
