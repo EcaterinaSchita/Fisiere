@@ -16,7 +16,7 @@ with open("Germana.txt", "w") as g:
 s=0
 g.write("Nume "+ "Prenume "+ "Nota "+ "Obiectul" + "\n")
 for i in lista1:
- if i[-3:-1]=="an":
+ if i=="germana":
    g.write(str(i)+"\n")
 for x in i.split():
   if x.isdigit():
@@ -27,7 +27,7 @@ with open("Engleza.txt", "w") as e:
 s=0
 e.write("Nume "+ "Prenume "+ "Nota "+ "Obiectul"+"\n")
 for i in lista1:
-  if i[-3:-1]=="ez":
+  if i=="engleza":
    e.write(str(i)+"\n")
 for x in i.split():
   if x.isdigit():
